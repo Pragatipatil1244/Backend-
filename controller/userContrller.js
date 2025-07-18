@@ -1,5 +1,5 @@
 const express=require("express");
-const UserModel=require("../model/user");
+const UserModel=require("../model/User");
 const bcrypt=require("bcryptjs")
 
 exports.getAllUsers=async (req,res,next) => {
